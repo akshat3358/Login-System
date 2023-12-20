@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		777B2CA72B321751009BA4DB /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777B2CA62B321751009BA4DB /* CustomButton.swift */; };
 		77AB6C7A2B309AE1004D9CF3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AB6C792B309AE1004D9CF3 /* CustomTextField.swift */; };
+		77EEEC822B3363A7002B85A9 /* WebViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EEEC812B3363A7002B85A9 /* WebViewerController.swift */; };
+		77F3881D2B33681F00A96EB6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 77F3881C2B33681F00A96EB6 /* .gitignore */; };
 		77FAA4C62B2F694800E17D38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FAA4C52B2F694800E17D38 /* AppDelegate.swift */; };
 		77FAA4C82B2F694800E17D38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FAA4C72B2F694800E17D38 /* SceneDelegate.swift */; };
 		77FAA4CF2B2F694900E17D38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FAA4CE2B2F694900E17D38 /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 /* Begin PBXFileReference section */
 		777B2CA62B321751009BA4DB /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		77AB6C792B309AE1004D9CF3 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		77EEEC812B3363A7002B85A9 /* WebViewerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewerController.swift; sourceTree = "<group>"; };
+		77F3881C2B33681F00A96EB6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		77FAA4C22B2F694800E17D38 /* Swift-Login-System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Login-System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77FAA4C52B2F694800E17D38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77FAA4C72B2F694800E17D38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				77FAA4E22B2F71DD00E17D38 /* Views */,
 				77FAA4D92B2F6BF800E17D38 /* Supportings */,
 				77FAA4D32B2F694900E17D38 /* Info.plist */,
+				77EEEC812B3363A7002B85A9 /* WebViewerController.swift */,
+				77F3881C2B33681F00A96EB6 /* .gitignore */,
 			);
 			path = "Swift-Login-System";
 			sourceTree = "<group>";
@@ -157,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77FAA4D22B2F694900E17D38 /* LaunchScreen.storyboard in Resources */,
+				77F3881D2B33681F00A96EB6 /* .gitignore in Resources */,
 				77FAA4CF2B2F694900E17D38 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,6 +183,7 @@
 				77AB6C7A2B309AE1004D9CF3 /* CustomTextField.swift in Sources */,
 				77FAA4DB2B2F70BB00E17D38 /* HomeController.swift in Sources */,
 				77FAA4E12B2F713000E17D38 /* LoginController.swift in Sources */,
+				77EEEC822B3363A7002B85A9 /* WebViewerController.swift in Sources */,
 				77FAA4E42B2F7E4100E17D38 /* AuthHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
